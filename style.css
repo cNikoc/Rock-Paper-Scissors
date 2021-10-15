@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #444;
+}
+
+.titulo {
+    text-align: center;
+    margin-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #999;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("imgs/ring.jpeg");
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 300px;
+    width: 98%;
+    margin: 30px auto;
+}
+
+div {
+    height: 240px;
+    width: 240px;
+    background: #444;
+    border-radius: 50%;
+}
+
+.win {
+    border-radius: 50%;
+}
+
+.btn {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #df63ce;
+    box-shadow: 0 0 15px 0 #333;
+    color: #fff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri;
+    font-size: 15px;
+}
+
+.btn:active {
+    background-color: #973197;
+    box-shadow: 0 0 0 0;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+img {
+    height: 240px;
+    width: 240px;
+    border-radius: 50%;
+}
+
+.win > img {
+    border-radius: 50%;
+    
+}
